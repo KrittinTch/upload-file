@@ -1,0 +1,40 @@
+<div fxLayout="row wrap" class="borderzone">
+
+  <div class="filebox" fxFlex="30" fxLayoutAlign="center" *ngFor="let filename of filenames">
+    <p class="text-container">{{filename.name}}</p>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="center" (drop)="drop($event)" (dragover)="allowDrop($event)" class="dropzone">
+    <p>
+      DROP ZONE !!
+    </p>
+  </div>
+
+
+</div>
+
+
+
+<!-- <div fxLayout="row wrap">
+  <div fxFlex="30">1</div>
+  <div fxFlex="30">1</div>
+  <div fxFlex="100">1</div>
+</div>
+<div fxLayout="row wrap">
+  <div fxFlex="30">1</div>
+  <div fxFlex="30">1</div>
+  <div fxFlex="100">1</div>
+</div> -->
+
+<!-- <div fxLayout="row" fxLayout.gt-sm="row wrap">
+  <div fxFlex="100" fxFlex.gt-sm="100" fxLayoutAlign="center">1</div>
+  <div fxFlex="100" fxFlex.gt-sm="30" fxLayoutAlign="center">2</div>
+  <div fxFlex="100" fxFlex.gt-sm="30" fxLayoutAlign="center">3</div>
+  <div fxFlex="100" fxFlex.gt-sm="30" fxLayoutAlign="center">4</div>
+  <div fxFlex="100" fxFlex.gt-sm="100" fxLayoutAlign="center">5</div>
+  <div fxFlex="100" fxFlex.gt-sm="50" fxLayoutAlign="center">6</div>
+  <div fxFlex="100" fxFlex.gt-sm="50" fxLayoutAlign="center">7</div>
+  <div fxFlex="100" fxFlex.gt-sm="100" fxLayoutAlign="center">8</div>
+  <div fxFlex="100" fxFlex.gt-sm="50" fxLayoutAlign="center">9</div>
+  <div fxFlex="100" fxFlex.gt-sm="50" fxLayoutAlign="center">10</div>
+</div> -->

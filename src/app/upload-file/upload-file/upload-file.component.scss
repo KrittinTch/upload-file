@@ -1,0 +1,33 @@
+.dropzone {
+  background: #e9e4e4;
+  border: 0.1rem dashed #bababa;
+  min-height: 15rem;
+  color: #bababa;
+  margin: 12px;
+  width: 60rem;
+}
+.borderzone {
+  background: #fafafa;
+  border: 0.1rem dashed #bababa;
+  min-height: 5rem;
+  color: #bababa;
+  margin: 20px;
+  width: 62rem;
+}
+
+.text-container {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100px;
+  color: #15c;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.filebox{
+  background: #f1f1f1;
+  margin-right: 8px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
